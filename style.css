@@ -1,0 +1,121 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin: 5px;
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    box-shadow: 0px 2px 6px #0c0c0c;
+    border-radius: 5px;
+}
+
+a {
+    color: #414141;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #c7c7c7;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: ;
+    box-shadow: 0px 2px 3px #0c0c0c;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+section > h2:hover {
+    color: #868686;
+}
+
+section > h2 {
+    margin-top: 20px;
+    background-color: #d6d6d6;
+    box-shadow: 0px 2px 3px #0c0c0c5d;
+}
+
+section > p
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 48%;
+}
+
+article:hover {
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+.hiden {
+    display: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    box-shadow: 0px 0px 4px #0c0c0c;
+}
+
+section:hover .hiden {
+    display: block;
+    text-align: center;
+}
+
+#titulo2 {
+    color: #868686;
+    margin-top: 40px;
+    background-color: white;
+    text-align: center;
+    font-size: 2em;
+    border: #3333334f solid 1px;
+    box-shadow: 0px 2px 6px #0c0c0c54;
+}
+
+#macacomestre {
+    justify-content: center;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.hiden img {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px #0c0c0c;
+}
